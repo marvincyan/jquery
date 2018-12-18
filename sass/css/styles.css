@@ -1,0 +1,36 @@
+/* Default colors */
+#searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  height: 200px;
+  border-top: 1px solid #C9C9CE;
+  border-left: 1px solid #C9C9CE;
+  border-bottom: 0px;
+  border-right: 1px solid #C9C9CE;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #FFFFFF;
+  background-repeat: repeat-x;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000000), to(#FFFFFF));
+  background: -webkit-linear-gradient(top, #FFFFFF, #000000);
+  background: -moz-linear-gradient(top, #FFFFFF, #000000);
+  background: -ms-linear-gradient(top, #FFFFFF, #000000);
+  background: -o-linear-gradient(top, #FFFFFF, #000000);
+  -moz-box-shadow: 0 3px 2px #C9C9CE;
+  -webkit-box-shadow: 0 3px 2px #C9C9CE;
+  box-shadow: 0 3px 2px #C9C9CE; }
+  #searchContainer label {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif; }
+  #searchContainer input {
+    font-size: 20px;
+    padding: 2px 5px;
+    margin-left: 20px; }
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  #searchContainer {
+    width: 500px; } }

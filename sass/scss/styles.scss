@@ -1,0 +1,35 @@
+@import "defaults.scss";
+
+#searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    border-top: 1px solid $border-color;    
+    border-left: 1px solid $border-color;
+    border-bottom: 0px;
+    border-right: 1px solid $border-color;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    @include background-gradient($white-color, $black-color);
+    @include box-shadow(0 3px 2px $shadow-color);
+
+    label {
+        font-size: 40px;
+        font-family: $default-font;
+    }
+    input {
+        font-size: 20px;
+        padding: 2px 5px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+    #searchContainer {
+        width: 500px; 
+    } 
+}
