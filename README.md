@@ -1,2 +1,2 @@
-# jquery
-Sample jQuery
+# jquery/CSS/SCSS
+Sample jQuery/CSS/SCSS
